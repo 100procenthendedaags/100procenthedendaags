@@ -262,7 +262,7 @@
 	}
 
 	label {
-		color: _palette(fg-bold);
+		color: #fff(fg-bold);
 		display: block;
 		font-size: 0.9em;
 		font-weight: _font(weight-bold);
@@ -342,7 +342,7 @@
 
 		& + label {
 			@include icon;
-			color: _palette(fg);
+			color: #fff(fg);
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -945,7 +945,7 @@
 		}
 
 		&.style2 {
-			@include dark(#333);
+			@include dark(#fa8286);
 			background-attachment:	fixed,							fixed;
 			background-image:		url('images/overlay1.png'),		url('../../images/header.jpg');
 			background-size:		auto,							cover;
