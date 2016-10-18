@@ -28,11 +28,11 @@
 		bg:					#ffffff,
 		fg:					#1d1d1d,
 		fg-bold:		#1d1d1d,
-		fg-light: 	#ffffff,
-		border:				rgba(255,255,255,0.5),
-		border-bg:			rgba(255,255,255,0.075),
-		border2:			rgba(255,255,255,0.75),
-		border2-bg:			rgba(255,255,255,0.2),
+		fg-light: 	#1d1d1d,
+		border:				rgba(0,0,0,0.5),
+		border-bg:			rgba(0,0,0,0.075),
+		border2:			rgba(0,0,0,0.75),
+		border2-bg:			rgba(0,0,0,0.2),
 		accent1:			#dcc7c7,
 		accent2:			#f4d2d1,
 		accent3:			#f8c1c1,
@@ -48,12 +48,12 @@
 
 		dark: (
 			bg:				#fb8386,
-			fg-bold:		#ffffff,
-			fg:				rgba(255,255,255,0.75),
-			fg-light:		rgba(255,255,255,0.5),
-			border:			#ffffff,
-			border-bg:		rgba(255,255,255,0.125),
-			border2:		rgba(255,255,255,0.75),
-			border2-bg:		rgba(255,255,255,0.25)
+			fg-bold:		#1d1d1d,
+			fg:				rgba(0,0,0,0.75),
+			fg-light:		rgba(0,0,0,0.5),
+			border:			#1d1d1d,
+			border-bg:		rgba(0,0,0,0.125),
+			border2:		rgba(0,0,0,0.75),
+			border2-bg:		rgba(0,0,0,0.25)
 		)
 	);

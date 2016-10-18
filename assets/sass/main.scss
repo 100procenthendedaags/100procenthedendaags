@@ -1053,6 +1053,7 @@
 
 		.icons {
 			margin: 0;
+			border-bottom: none;
 		}
 
 		.copyright {
@@ -1122,6 +1123,7 @@
 							height: 8em;
 							line-height: 8em;
 							width: 8em;
+							border-bottom: none;
 						}
 					}
 				}
@@ -1172,6 +1174,7 @@
 							height: 7em;
 							line-height: 7em;
 							width: 7em;
+							border-bottom: none;
 						}
 					}
 				}
@@ -1198,13 +1201,13 @@
 		/* One */
 
 			#one {
-				text-align: center;
+				text-align: left;
 			}
 
 		/* Two */
 
 			#two {
-				text-align: center;
+				text-align: left;
 			}
 
 	}
@@ -1246,6 +1249,7 @@
 							height: 5em;
 							line-height: 5em;
 							width: 5em;
+							border-bottom: none;
 
 							&:before {
 								font-size: 42px;
@@ -1260,6 +1264,7 @@
 			.icon {
 				&.major {
 					margin: 0 0 (_size(element-margin) * 0.5) 0;
+					border-bottom: none;
 				}
 			}
 
@@ -1325,6 +1330,7 @@
 							&.icon {
 								&:before {
 									margin-left: -2em;
+									border-bottom: none;
 								}
 							}
 						}
