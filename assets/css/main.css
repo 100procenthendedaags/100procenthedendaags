@@ -1666,8 +1666,8 @@ input[type="radio"] {
       width: 1.65em; }
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
-    background: #fb8386;
-    border-color: #fb8386;
+    background: #f5ddde;
+    border-color: #f5ddde;
     color: #1d1d1d;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
@@ -1740,7 +1740,7 @@ input[type="radio"] + label:before {
   .icon.style5:before {
     color: #fa9d9f; }
   .icon.style6:before {
-    color: #fb8386; }
+    color: #f5ddde; }
   .icon.major {
     text-decoration: none;
     color: #1d1d1d;
@@ -2052,7 +2052,7 @@ button,
   .main.style1 {
     background: #ffffff; }
   .main.style2 {
-    background-color: #fa8286;
+    background-color: #f5ddde;
     color: rgba(0, 0, 0, 0.75);
     background-attachment: fixed,							fixed;
     background-image: url("images/overlay1.png"), url("../../images/header.jpg");
@@ -2079,13 +2079,13 @@ button,
       .main.style2 input[type="button"]:hover,
       .main.style2 button:hover,
       .main.style2 .button:hover {
-        background-color: rgba(0, 0, 0, 0.125); }
+        background-color: #f5ddde; }
       .main.style2 input[type="submit"]:active,
       .main.style2 input[type="reset"]:active,
       .main.style2 input[type="button"]:active,
       .main.style2 button:active,
       .main.style2 .button:active {
-        background-color: rgba(0, 0, 0, 0.25); }
+        background-color: #f5ddde; }
       .main.style2 input[type="submit"].special,
       .main.style2 input[type="reset"].special,
       .main.style2 input[type="button"].special,
@@ -2099,14 +2099,14 @@ button,
         .main.style2 input[type="button"].special:hover,
         .main.style2 button.special:hover,
         .main.style2 .button.special:hover {
-          background-color: rgba(0, 0, 0, 0.125) !important;
+          background-color: #f5ddde !important;
           color: #1d1d1d !important; }
         .main.style2 input[type="submit"].special:active,
         .main.style2 input[type="reset"].special:active,
         .main.style2 input[type="button"].special:active,
         .main.style2 button.special:active,
         .main.style2 .button.special:active {
-          background-color: rgba(0, 0, 0, 0.25) !important; }
+          background-color: #f5ddde !important; }
     .main.style2 ul.major-icons li .icon {
       border-color: #1d1d1d; }
     .main.style2 .icon.major {
@@ -2118,7 +2118,7 @@ button,
   background-color: #4686a0;
   color: rgba(0, 0, 0, 0.75);
   background-attachment: fixed,							fixed,							fixed;
-  background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #aea9a9 5%, #e28b8b 30%, #e44d51);
+  background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #aea9a9 5%, #e28b8b 30%, #d8aeb0);
   background-position: top left,						center center,					center center;
   background-size: auto,							cover,							cover;
   overflow: hidden;
@@ -2146,13 +2146,13 @@ button,
     #header input[type="button"]:hover,
     #header button:hover,
     #header .button:hover {
-      background-color: rgba(0, 0, 0, 0.125); }
+      background-color: #f5ddde; }
     #header input[type="submit"]:active,
     #header input[type="reset"]:active,
     #header input[type="button"]:active,
     #header button:active,
     #header .button:active {
-      background-color: rgba(0, 0, 0, 0.25); }
+      background-color: #f5ddde; }
     #header input[type="submit"].special,
     #header input[type="reset"].special,
     #header input[type="button"].special,
@@ -2166,14 +2166,14 @@ button,
       #header input[type="button"].special:hover,
       #header button.special:hover,
       #header .button.special:hover {
-        background-color: rgba(0, 0, 0, 0.125) !important;
+        background-color: #f5ddde !important;
         color: #1d1d1d !important; }
       #header input[type="submit"].special:active,
       #header input[type="reset"].special:active,
       #header input[type="button"].special:active,
       #header button.special:active,
       #header .button.special:active {
-        background-color: rgba(0, 0, 0, 0.25) !important; }
+        background-color: #f5ddde !important; }
   #header ul.major-icons li .icon {
     border-color: #1d1d1d; }
   #header .icon.major {
@@ -2228,7 +2228,7 @@ button,
     -webkit-transition: opacity 1s ease;
     -ms-transition: opacity 1s ease;
     transition: opacity 1s ease;
-    background-image: linear-gradient(45deg, #e28b8b, #e44d51);
+    background-image: linear-gradient(45deg, #e28b8b, #d8aeb0);
     content: '';
     height: 100%;
     left: 0;
@@ -2258,7 +2258,7 @@ body.is-loading #header:after {
   background-color: #4686a0;
   color: rgba(0, 0, 0, 0.75);
   background-attachment: fixed,							fixed,							fixed;
-  background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #e44d51, #e28b8b 50%, #aea9a9 95%);
+  background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #d8aeb0, #e28b8b 50%, #aea9a9 95%);
   background-position: top left,						center center,					center center;
   background-size: auto,							cover,							cover;
   text-align: center; }
@@ -2284,13 +2284,13 @@ body.is-loading #header:after {
     #footer input[type="button"]:hover,
     #footer button:hover,
     #footer .button:hover {
-      background-color: rgba(0, 0, 0, 0.125); }
+      background-color: #f5ddde; }
     #footer input[type="submit"]:active,
     #footer input[type="reset"]:active,
     #footer input[type="button"]:active,
     #footer button:active,
     #footer .button:active {
-      background-color: rgba(0, 0, 0, 0.25); }
+      background-color: #f5ddde; }
     #footer input[type="submit"].special,
     #footer input[type="reset"].special,
     #footer input[type="button"].special,
@@ -2304,14 +2304,14 @@ body.is-loading #header:after {
       #footer input[type="button"].special:hover,
       #footer button.special:hover,
       #footer .button.special:hover {
-        background-color: rgba(0, 0, 0, 0.125) !important;
+        background-color: #f5ddde !important;
         color: #1d1d1d !important; }
       #footer input[type="submit"].special:active,
       #footer input[type="reset"].special:active,
       #footer input[type="button"].special:active,
       #footer button.special:active,
       #footer .button.special:active {
-        background-color: rgba(0, 0, 0, 0.25) !important; }
+        background-color: #f5ddde !important; }
   #footer ul.major-icons li .icon {
     border-color: #1d1d1d; }
   #footer .icon.major {
