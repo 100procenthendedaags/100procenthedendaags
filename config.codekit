@@ -51,17 +51,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/css\/images\/overlay3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 787536,
-		"inputAbbreviatedPath": "\/assets\/css\/images\/overlay3.png",
-		"outputAbbreviatedPath": "\/assets\/css\/images\/overlay3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
